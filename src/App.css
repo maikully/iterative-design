@@ -2,6 +2,105 @@
   text-align: center;
 }
 
+@font-face {
+  font-family: 'MyFont';
+  src: local('MyFont'), url(./fonts/FuturaLT.woff) format('woff');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+/*
+css reset
+
+*/
+/* set border-box (so that css uses a 
+more reasonable box model, and so it’s 
+like every other platform) */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* get rid of default margins which 
+  vary depending on browser anyway, just 
+  set it yourself later*/
+* {
+  margin: 0;
+}
+
+/* make tables look like spreadsheets 
+  and less like a spaced-out grid */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+* {
+  font-family: 'MyFont', sans-serif;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.block-block1 {
+  grid-column: 1;
+  grid-row: 1;
+}
+
+.block-block2 {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.block-block3 {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+.block-block4 {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.clickable:hover {
+  opacity: .8;
+  transition-duration: 0.2s;
+}
+
+gridbody {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 40vw 40vw;
+  grid-template-rows: 1fr;
+}
+
+.fade-in-section {
+  opacity: 0;
+  transform: translateY(20vh);
+  visibility: hidden;
+  transition: opacity .5s ease-out, transform .2s ease-out;
+  will-change: opacity, visibility;
+}
+
+.fade-in-section.is-visible {
+  opacity: 1;
+  transform: none;
+  visibility: visible;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -24,6 +123,62 @@
   color: white;
 }
 
+.HW-header {
+  background-image: linear-gradient(180deg, #000000 50%, #090e19 100%);
+  min-height: 150vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.HW-header-two {
+  background-color: #0f182b;
+  background-image: linear-gradient(180deg, #090e19 50%, #121b30 100%);
+  min-height: 150vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.HW-header-three {
+  background-color: #12213e;
+  background-image: linear-gradient(180deg, #121b30 50%, #192645 100%);
+  min-height: 150vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.HW-header-four {
+  background-color: #192645;
+  min-height: 150vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+li {
+  margin: 20px 0;
+  font-size: large;
+  margin-bottom: 3vh;
+}
+
+ul {
+  list-style-type: none;
+}
+
 .App-link {
   color: #61dafb;
 }
@@ -32,6 +187,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

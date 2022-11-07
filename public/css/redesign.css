@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'MyFont';
+  src: local('MyFont'), url(fonts/FuturaLT.woff) format('woff');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
+
+* {
+  font-family: 'MyFont', sans-serif;
+}
+
+body {
+  background-color: #2a2626;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center
+}
+
+.navbar {
+  width: 100vw;
+  letter-spacing: 2.5px;
+  margin: 0 auto;
+  z-index: 100;
+  position: fixed;
+  left: 0;
+  top: 0;
+}
+nav {
+
+  background-color: #2a2626;
+}
+.review {
+  color: white;
+
+}
+.btn {
+  background-color:transparent;
+  color:#52EAFF;
+  border-color:#52EAFF;
+}
+.btn:hover {
+  background-color:#52EAFF;
+  color:black;
+  border-color:#52EAFF;
+}
+.col-sm {
+  max-width: 40vw;
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+  overflow:hidden;
+}
+.wrapper {
+  max-height:40vh;
+  overflow-y: scroll;
+  scrollbar-color: white;
+}
+.nav-item {
+  margin-right: 2vw;
+}
+.title {
+  color: white
+}
+.title:hover{
+  color: #52EAFF
+}
+.row {
+  margin-top: 2.5vh;
+  margin-bottom: 2.5vh
+}
+h1 {
+  color: white;
+  font-family: 'MyFont', sans-serif;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center
+}
+h2 {
+  color: white;
+  font-family: 'MyFont', sans-serif;
+}
+ul {
+  list-style-type: disc
+}
