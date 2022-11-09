@@ -336,13 +336,13 @@ function Homework () {
                 />
               </a>
             </div>
-          </FadeSection>
+          </FadeSection><FadeSection>
           <div style={{ marginBottom: '10vh' }}>
             <br></br>
             <span>
               <h1>Critique Feedback</h1>
             </span>
-          </div><FadeSection>
+          </div>
           <div>
             <ul style={{ textAlign: 'left', marginLeft: '30vw', marginBottom: "10vh" }}>
               <li>
