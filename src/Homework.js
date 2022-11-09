@@ -101,11 +101,10 @@ function Homework () {
               />
             </span>
           </div>
-
-          </FadeSection>
+        </FadeSection>
         <FadeSection>
           <div>
-            <h2 style={{marginTop:"10vh"}}> Set 2</h2>
+            <h2 style={{ marginTop: '10vh' }}> Set 2</h2>
             <br></br>
             <span>
               <img
@@ -172,7 +171,7 @@ function Homework () {
         </FadeSection>
         <FadeSection>
           <div>
-            <h2 style={{marginTop:"10vh"}}> Set 3</h2>
+            <h2 style={{ marginTop: '10vh' }}> Set 3</h2>
             <br></br>
             <span>
               <img
@@ -203,11 +202,10 @@ function Homework () {
               />
             </span>
           </div>
-
-          </FadeSection>
-          <FadeSection>
+        </FadeSection>
+        <FadeSection>
           <div>
-            <h2 style={{marginTop:"10vh"}}> Set 4</h2>
+            <h2 style={{ marginTop: '10vh' }}> Set 4</h2>
             <br></br>
             <span>
               <img
@@ -240,74 +238,75 @@ function Homework () {
           </div>
           <div>
             <FadeSection>
-            <h2> Combined Wireframe</h2>
-            <br></br>
-            <span>
-              <img
-                src={require('./images/wireframes/Co1.png')}
-                style={{
-                  width: '30%',
-                  height: '30%',
-                  marginBottom: '10vh',
-                  marginRight: '2vw'
-                }}
-              />
-            </span>
-            <span>
-              <img
-                src={require('./images/wireframes/Co2.png')}
-                style={{
-                  width: '30%',
-                  height: '30%',
-                  marginBottom: '10vh',
-                  marginRight: '2vw'
-                }}
-              />
-            </span>
-            <span>
-              <img
-                src={require('./images/wireframes/Co3.png')}
-                style={{
-                  width: '30%',
-                  height: '30%',
-                  marginBottom: '10vh',
-                  marginRight: '2vw'
-                }}
-              />
-            </span>
-            <span>
-              <img
-                src={require('./images/wireframes/Co4.png')}
-                style={{
-                  width: '30%',
-                  height: '30%',
-                  marginBottom: '10vh',
-                  marginRight: '2vw'
-                }}
-              />
-            </span>
-            <span>
-              <img
-                src={require('./images/wireframes/Co5.png')}
-                style={{
-                  width: '30%',
-                  height: '30%',
-                  marginBottom: '10vh',
-                  marginRight: '2vw'
-                }}
-              />
-            </span>
-            <span>
-              <img
-                src={require('./images/wireframes/Co6.png')}
-                style={{
-                  width: '30%',
-                  height: '30%',
-                  marginBottom: '10vh',
-                  marginRight: '2vw'
-                }}
-              />
-            </span></FadeSection>
+              <h2> Combined Wireframe</h2>
+              <br></br>
+              <span>
+                <img
+                  src={require('./images/wireframes/Co1.png')}
+                  style={{
+                    width: '30%',
+                    height: '30%',
+                    marginBottom: '10vh',
+                    marginRight: '2vw'
+                  }}
+                />
+              </span>
+              <span>
+                <img
+                  src={require('./images/wireframes/Co2.png')}
+                  style={{
+                    width: '30%',
+                    height: '30%',
+                    marginBottom: '10vh',
+                    marginRight: '2vw'
+                  }}
+                />
+              </span>
+              <span>
+                <img
+                  src={require('./images/wireframes/Co3.png')}
+                  style={{
+                    width: '30%',
+                    height: '30%',
+                    marginBottom: '10vh',
+                    marginRight: '2vw'
+                  }}
+                />
+              </span>
+              <span>
+                <img
+                  src={require('./images/wireframes/Co4.png')}
+                  style={{
+                    width: '30%',
+                    height: '30%',
+                    marginBottom: '10vh',
+                    marginRight: '2vw'
+                  }}
+                />
+              </span>
+              <span>
+                <img
+                  src={require('./images/wireframes/Co5.png')}
+                  style={{
+                    width: '30%',
+                    height: '30%',
+                    marginBottom: '10vh',
+                    marginRight: '2vw'
+                  }}
+                />
+              </span>
+              <span>
+                <img
+                  src={require('./images/wireframes/Co6.png')}
+                  style={{
+                    width: '30%',
+                    height: '30%',
+                    marginBottom: '10vh',
+                    marginRight: '2vw'
+                  }}
+                />
+              </span>
+            </FadeSection>
           </div>
         </FadeSection>
       </div>
@@ -336,40 +335,50 @@ function Homework () {
                 />
               </a>
             </div>
-          </FadeSection><FadeSection>
-          <div style={{ marginBottom: '10vh' }}>
-            <br></br>
-            <span>
-              <h1>Critique Feedback</h1>
-            </span>
-          </div>
-          <div>
-            <ul style={{ textAlign: 'left', marginLeft: '30vw', marginBottom: "10vh" }}>
-              <li>
-                Navigation is confusing, suggested a back button between intermediate screens
-              </li>
-              <li>The edit buttons are not obvious and hard to find</li>
-              <li>Unclear how to delete menu items</li>
-              <li>
-                The edit order page is confusing because it is unclear
-                "entrees" menu is selected
-              </li>
-              <li>Include more at a glance table information in the layout view</li>
-            </ul>
-          </div>
+          </FadeSection>
+          <FadeSection>
+            <div style={{ marginBottom: '10vh' }}>
+              <br></br>
+              <span>
+                <h1>Critique Feedback</h1>
+              </span>
+            </div>
+            <div>
+              <ul
+                style={{
+                  textAlign: 'left',
+                  marginLeft: '30vw',
+                  marginBottom: '10vh'
+                }}
+              >
+                <li>
+                  Navigation is confusing, suggested a back button between
+                  intermediate screens
+                </li>
+                <li>The edit buttons are not obvious and hard to find</li>
+                <li>Unclear how to delete menu items</li>
+                <li>
+                  The edit order page is confusing because it is unclear
+                  "entrees" menu is selected
+                </li>
+                <li>
+                  Include more at a glance table information in the layout view
+                </li>
+              </ul>
+            </div>
 
-          <div>
+            <div>
               <a
                 target='_blank'
                 href='https://www.figma.com/proto/pehJfzn0mIbeRGLxqmDI2b/DimOrder---precrit?scaling=scale-down&page-id=0%3A1&starting-point-node-id=6%3A3&node-id=6%3A3'
               >
                 <img
                   src={require('./images/beforeandafter.png')}
-                  style={{ width: '40%', height: '40%', marginBottom: "30vh" }}
+                  style={{ width: '40%', height: '40%', marginBottom: '30vh' }}
                 />
               </a>
             </div>
-            </FadeSection>
+          </FadeSection>
         </div>
       </div>
       <div className='HW-header-four'>
@@ -407,9 +416,70 @@ function Homework () {
             style={{
               width: '50vw',
               fontSize: 20,
-              marginBottom: '40vh'
+              marginBottom: '10vh'
             }}
           ></div>
+          <div
+            style={{
+              width: '50vw'
+            }}
+          >
+            <ul
+              style={{
+                textAlign: 'left',
+                marginBottom: '20vh',
+                marginLeft: '5vw'
+              }}
+            >
+              <li>
+                The task we assigned was to follow a waiter's workflow, changing
+                an order and then finalizing the payment. The results, which
+                were mostly positive, aligned with our expectations. The users
+                were able to complete the tasks, but because of an unfinished
+                part, one task (splitting the check) was confusing for some.
+              </li>
+              <li>
+                Overall positive impression of prototype and design, thought
+                design, especially receipt preview on the side, was intuitive
+              </li>
+              <li>
+                Deleting an item was very easy and completely successfully by
+                all testers, although one user mentioned that having all the
+                edit and delete buttons so close together might result in
+                mechanical errors
+              </li>
+              <li>
+                Splitting the check was easy as well, although some users felt
+                that it was unclear whether or not the splitting went through
+              </li>
+            </ul>
+          </div>
+        </FadeSection>
+        <FadeSection>
+          <h2>Potential Improvements</h2>
+          <div
+            style={{
+              width: '50vw'
+            }}
+          >
+            <ul
+              style={{
+                textAlign: 'left',
+                marginTop: '10vh',
+                marginBottom: '40vh',
+                marginLeft: '5vw'
+              }}
+            >
+              <li>
+                Make the edit and delete icons larger and more spaced out to
+                avoid misclicks
+              </li>
+              <li>
+                Add a confirmation screen after check has been split Table view
+                details can be made more clear
+              </li>
+            </ul>
+          </div>
         </FadeSection>
       </div>
     </>
