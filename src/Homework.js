@@ -24,7 +24,9 @@ function Homework () {
               <div style={{ width: '30vw', textAlign: 'left' }}>
                 <span>
                   <a style={{ fontSize: 'large', textAlign: 'left' }}>
-                    For our startup, we chose DimOrder, a company that seeks to
+                    As part of a project for CSCI1300, our team of four students
+                    picked a startup to design an interface for. 
+                    We chose DimOrder, a company that seeks to
                     provide business solutions to restaurants in Southeast Asia.
                     The startup's description mentions both ordering from
                     suppliers and point-of-sale systems used when interacting
@@ -449,11 +451,32 @@ function Homework () {
             >
               <li>
                 The task we assigned was to follow a waiter's workflow, changing
-                an order and then finalizing the payment. The results, which
+                an order and then finalizing the payment. This was put into usertesting.com like so:
+              </li> 
+              <ul>
+                <li>Background blurb: This is a prototype software for restaurants that help them manage their tables.
+                   Note that not all of the buttons are completely functional and not all the pages are fully built. 
+                   View the prototype in landscape orientation. You are Amanda, a server at a sit down restaurant. 
+                   You use this software on an iPad at work. 
+                  Please think out loud as you complete the tasks. </li>
+                <li>Task 1: Table 2 has decided to cancel their order of noodles. 
+                  Please remove the "noodles" item from Table 2's order. </li>
+                <li>Task 2: You have given Table 2 their check and they informed you they would 
+                  like to split the bill evenly among the three of them, giving you 3 credit cards. 
+                  Imagine that you've brought the 3
+                  credit cards back to the iPad. Please split Table 2's bill evenly 3 ways.</li>
+                <li>Task 3: Explore the interface as if you are doing other tasks a waiter might do. 
+                  Briefly summarize the main issues you experienced and any general comments you may have.
+</li>
+             </ul>
+
+              <li>  
+                The results, which
                 were mostly positive, aligned with our expectations. The users
                 were able to complete the tasks, but because of an unfinished
                 part, one task (splitting the check) was confusing for some.
               </li>
+
               <li>
                 Overall positive impression of prototype and design; users
                 thought the design, especially the receipt preview on the side, was
@@ -494,6 +517,9 @@ function Homework () {
               <li>
                 Add a confirmation screen after check has been split Table view
                 details can be made more clear
+              </li>
+              <li>
+                Clarifying table view and list view interface with more visual elements
               </li>
             </ul>
           </div>
