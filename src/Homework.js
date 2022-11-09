@@ -290,19 +290,15 @@ function Homework () {
           <div>
             <ul style={{ textAlign: 'left', marginLeft: '30vw' }}>
               <li>
-                There should be a clear back button between intermediate screens
+                Navigation is confusing, suggested a back button between intermediate screens
               </li>
-              <li>There should be edit buttons for each item on the menu</li>
-              <li>There should be edit buttons for each item on every page</li>
+              <li>The edit buttons are not obvious and hard to find</li>
+              <li>Unclear how to delete menu items</li>
               <li>
-                In the edit order page, it should be more obvious that the
+                The edit order page is confusing because it is unclear
                 "entrees" menu is selected
               </li>
-              <li>Include more table information in the layout view</li>
-              <li>
-                Assigning each item individually when splitting could take too
-                much time
-              </li>
+              <li>Include more at a glance table information in the layout view</li>
             </ul>
           </div>
         </div>
