@@ -301,6 +301,19 @@ function Homework () {
               <li>Include more at a glance table information in the layout view</li>
             </ul>
           </div>
+
+          <div>
+              <a
+                target='_blank'
+                href='https://www.figma.com/proto/pehJfzn0mIbeRGLxqmDI2b/DimOrder---precrit?scaling=scale-down&page-id=0%3A1&starting-point-node-id=6%3A3&node-id=6%3A3'
+              >
+                <img
+                  src={require('./images/beforeandafter.png')}
+                  style={{ width: '40%', height: '40%', marginBottom: '10vh' }}
+                />
+              </a>
+            </div>
+
         </div>
       </div>
       <div className='HW-header-four'>
