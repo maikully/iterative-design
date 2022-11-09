@@ -439,8 +439,9 @@ function Homework () {
                 part, one task (splitting the check) was confusing for some.
               </li>
               <li>
-                Overall positive impression of prototype and design, thought
-                design, especially receipt preview on the side, was intuitive
+                Overall positive impression of prototype and design; users
+                thought the design, especially the receipt preview on the side, was
+                intuitive
               </li>
               <li>
                 Deleting an item was very easy and completely successfully by
