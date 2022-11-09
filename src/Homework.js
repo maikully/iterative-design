@@ -239,11 +239,12 @@ function Homework () {
             </span>
           </div>
           <div>
+            <FadeSection>
             <h2> Combined Wireframe</h2>
             <br></br>
             <span>
               <img
-                src={require('./images/wireframes/M1.png')}
+                src={require('./images/wireframes/Co1.png')}
                 style={{
                   width: '30%',
                   height: '30%',
@@ -252,6 +253,61 @@ function Homework () {
                 }}
               />
             </span>
+            <span>
+              <img
+                src={require('./images/wireframes/Co2.png')}
+                style={{
+                  width: '30%',
+                  height: '30%',
+                  marginBottom: '10vh',
+                  marginRight: '2vw'
+                }}
+              />
+            </span>
+            <span>
+              <img
+                src={require('./images/wireframes/Co3.png')}
+                style={{
+                  width: '30%',
+                  height: '30%',
+                  marginBottom: '10vh',
+                  marginRight: '2vw'
+                }}
+              />
+            </span>
+            <span>
+              <img
+                src={require('./images/wireframes/Co4.png')}
+                style={{
+                  width: '30%',
+                  height: '30%',
+                  marginBottom: '10vh',
+                  marginRight: '2vw'
+                }}
+              />
+            </span>
+            <span>
+              <img
+                src={require('./images/wireframes/Co5.png')}
+                style={{
+                  width: '30%',
+                  height: '30%',
+                  marginBottom: '10vh',
+                  marginRight: '2vw'
+                }}
+              />
+            </span>
+            <span>
+              <img
+                src={require('./images/wireframes/Co6.png')}
+                style={{
+                  width: '30%',
+                  height: '30%',
+                  marginBottom: '10vh',
+                  marginRight: '2vw'
+                }}
+              />
+            </span></FadeSection>
           </div>
         </FadeSection>
       </div>
@@ -286,9 +342,9 @@ function Homework () {
             <span>
               <h1>Critique Feedback</h1>
             </span>
-          </div>
+          </div><FadeSection>
           <div>
-            <ul style={{ textAlign: 'left', marginLeft: '30vw' }}>
+            <ul style={{ textAlign: 'left', marginLeft: '30vw', marginBottom: "10vh" }}>
               <li>
                 Navigation is confusing, suggested a back button between intermediate screens
               </li>
@@ -309,11 +365,11 @@ function Homework () {
               >
                 <img
                   src={require('./images/beforeandafter.png')}
-                  style={{ width: '40%', height: '40%', marginBottom: '10vh' }}
+                  style={{ width: '40%', height: '40%', marginBottom: "30vh" }}
                 />
               </a>
             </div>
-
+            </FadeSection>
         </div>
       </div>
       <div className='HW-header-four'>
@@ -351,7 +407,7 @@ function Homework () {
             style={{
               width: '50vw',
               fontSize: 20,
-              marginBottom: '10vh'
+              marginBottom: '40vh'
             }}
           ></div>
         </FadeSection>

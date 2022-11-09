@@ -160,7 +160,6 @@ gridbody {
 
 .HW-header-four {
   background-color: #192645;
-  min-height: 150vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -173,10 +172,6 @@ li {
   margin: 20px 0;
   font-size: large;
   margin-bottom: 3vh;
-}
-
-ul {
-  list-style-type: none;
 }
 
 .App-link {
