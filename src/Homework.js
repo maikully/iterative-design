@@ -340,6 +340,30 @@ function Homework () {
               </span>
             </div>
             <div>
+              <ul
+                style={{
+                  textAlign: 'left',
+                  marginLeft: '30vw',
+                  marginBottom: '10vh'
+                }}
+              >
+                <li>
+                  Navigation is confusing, suggested a back button between
+                  intermediate screens
+                </li>
+                <li>The edit buttons are not obvious and hard to find</li>
+                <li>Unclear how to delete menu items</li>
+                <li>
+                  The edit order page is confusing because it is unclear
+                  "entrees" menu is selected
+                </li>
+                <li>
+                  Include more at a glance table information in the layout view
+                </li>
+              </ul>
+            </div>
+
+            <div>
               <a
                 target='_blank'
                 href='https://www.figma.com/proto/pehJfzn0mIbeRGLxqmDI2b/DimOrder---precrit?scaling=scale-down&page-id=0%3A1&starting-point-node-id=6%3A3&node-id=6%3A3'
@@ -361,30 +385,6 @@ function Homework () {
               </span>
             </div>
 
-
-            <div>
-              <ul
-                style={{
-                  textAlign: 'left',
-                  marginLeft: '30vw',
-                  marginBottom: '20vh'
-                }}
-              >
-                <li>
-                  Navigation is confusing, suggested a back button between
-                  intermediate screens
-                </li>
-                <li>The edit buttons are not obvious and hard to find</li>
-                <li>Unclear how to delete menu items</li>
-                <li>
-                  The edit order page is confusing because it is unclear
-                  "entrees" menu is selected
-                </li>
-                <li>
-                  Include more at a glance table information in the layout view
-                </li>
-              </ul>
-            </div>
 
             
           </FadeSection>
