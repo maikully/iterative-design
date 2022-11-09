@@ -25,8 +25,8 @@ function Homework () {
                 <span>
                   <a style={{ fontSize: 'large', textAlign: 'left' }}>
                     As part of a project for CSCI1300, our team of four students
-                    were tasked with picking a startup and designing an interface for it. 
-                    We chose DimOrder, a company that seeks to
+                    were tasked with picking a startup and designing an
+                    interface for it. We chose DimOrder, a company that seeks to
                     provide business solutions to restaurants in Southeast Asia.
                     The startup's description mentions both ordering from
                     suppliers and point-of-sale systems used when interacting
@@ -323,7 +323,7 @@ function Homework () {
             <div>
               <a
                 target='_blank'
-                href='https://www.figma.com/proto/NRIbtKQEZUgkpWhue9Jjq9/DimOrder-Iterative-Design?page-id=0%3A1&node-id=178%3A42&viewport=-459%2C835%2C0.41&scaling=scale-down&starting-point-node-id=6%3A3'
+                href='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FNPyxR3Q18DtMLrtsSbJpu3%2FDimOrder-Iterative-Design-(Copy)%3Fnode-id%3D178%253A42%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D178%253A42'
               >
                 <img
                   src={require('./images/figma.png')}
@@ -366,7 +366,7 @@ function Homework () {
             <div>
               <a
                 target='_blank'
-                href='https://www.figma.com/proto/pehJfzn0mIbeRGLxqmDI2b/DimOrder---precrit?scaling=scale-down&page-id=0%3A1&starting-point-node-id=6%3A3&node-id=6%3A3'
+                href='https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2FNPyxR3Q18DtMLrtsSbJpu3%2FDimOrder-Iterative-Design-(Copy)%3Fnode-id%3D178%253A42%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D178%253A42'
               >
                 <img
                   src={require('./images/beforeandafter.png')}
@@ -378,15 +378,12 @@ function Homework () {
             <div style={{ marginBottom: '10vh' }}>
               <br></br>
               <span>
-                <p style={{ fontSize: 'large' }}>A comparison of the original 
-                (top) and revised (below) prototypes;
-                  click on the image to view the original figma file
+                <p style={{ fontSize: 'large' }}>
+                  A comparison of the original (top) and revised (below)
+                  prototypes; click on the image to view the original figma file
                 </p>
               </span>
             </div>
-
-
-            
           </FadeSection>
         </div>
       </div>
@@ -436,9 +433,17 @@ function Homework () {
             <div style={{ marginBottom: '10vh' }}>
               <br></br>
               <span>
-                <p style={{ fontSize: 'x-large', width: "50vw", textAlign:"left", marginLeft:"5vw"}}>note: the videos show the prototype as
-                going out of the tablet container, but since none of the users mentioned
-                this glitch, we are assuming it is a screen recorder issue
+                <p
+                  style={{
+                    fontSize: 'x-large',
+                    width: '50vw',
+                    textAlign: 'left',
+                    marginLeft: '5vw'
+                  }}
+                >
+                  note: the videos show the prototype as going out of the tablet
+                  container, but since none of the users mentioned this glitch,
+                  we are assuming it is a screen recorder issue
                 </p>
               </span>
             </div>
@@ -449,46 +454,58 @@ function Homework () {
                 marginLeft: '5vw'
               }}
             >
-              <li >
+              <li>
                 The task we assigned was to follow a waiter's workflow, changing
-                an order, and finalizing the payment. This was put into usertesting.com like so:
-              </li> 
+                an order, and finalizing the payment. This was put into
+                usertesting.com like so:
+              </li>
               <ul>
-                <li>Background blurb: This is a prototype software for restaurants that help them manage their tables.
-                   Note that not all of the buttons are completely functional and not all the pages are fully built. 
-                   View the prototype in landscape orientation. You are Amanda, a server at a sit down restaurant. 
-                   You use this software on an iPad at work. 
-                  Please think out loud as you complete the tasks. </li>
-                <li>Task 1: Table 2 has decided to cancel their order of noodles. 
-                  Please remove the "noodles" item from Table 2's order. </li>
-                <li>Task 2: You have given Table 2 their check and they informed you they would 
-                  like to split the bill evenly among the three of them, giving you 3 credit cards. 
-                  Imagine that you've brought the 3
-                  credit cards back to the iPad. Please split Table 2's bill evenly 3 ways.</li>
-                <li>Task 3: Explore the interface as if you are doing other tasks a waiter might do. 
-                  Briefly summarize the main issues you experienced and any general comments you may have.
-</li>
-             </ul>
+                <li>
+                  Background blurb: This is a prototype software for restaurants
+                  that help them manage their tables. Note that not all of the
+                  buttons are completely functional and not all the pages are
+                  fully built. View the prototype in landscape orientation. You
+                  are Amanda, a server at a sit down restaurant. You use this
+                  software on an iPad at work. Please think out loud as you
+                  complete the tasks.{' '}
+                </li>
+                <li>
+                  Task 1: Table 2 has decided to cancel their order of noodles.
+                  Please remove the "noodles" item from Table 2's order.{' '}
+                </li>
+                <li>
+                  Task 2: You have given Table 2 their check and they informed
+                  you they would like to split the bill evenly among the three
+                  of them, giving you 3 credit cards. Imagine that you've
+                  brought the 3 credit cards back to the iPad. Please split
+                  Table 2's bill evenly 3 ways.
+                </li>
+                <li>
+                  Task 3: Explore the interface as if you are doing other tasks
+                  a waiter might do. Briefly summarize the main issues you
+                  experienced and any general comments you may have.
+                </li>
+              </ul>
 
-              <li >  
-                The results, which
-                were mostly positive, aligned with our expectations. The users
-                were able to complete the tasks, but because of an unfinished
-                part, one task (splitting the check) was confusing for some.
+              <li>
+                The results, which were mostly positive, aligned with our
+                expectations. The users were able to complete the tasks, but
+                because of an unfinished part, one task (splitting the check)
+                was confusing for some.
               </li>
 
-              <li >
+              <li>
                 Overall positive impression of prototype and design; users
-                thought the design, especially the receipt preview on the side, was
-                intuitive
+                thought the design, especially the receipt preview on the side,
+                was intuitive
               </li>
-              <li >
+              <li>
                 Deleting an item was very easy and completely successfully by
                 all testers, although one user mentioned that having all the
                 edit and delete buttons so close together might result in
                 mechanical errors
               </li>
-              <li >
+              <li>
                 Splitting the check was easy as well, although some users felt
                 that it was unclear whether or not the splitting went through
               </li>
@@ -519,7 +536,8 @@ function Homework () {
                 details can be made more clear
               </li>
               <li>
-                Clarifying table view and list view interface with more visual elements
+                Clarifying table view and list view interface with more visual
+                elements
               </li>
             </ul>
           </div>
