@@ -37,12 +37,6 @@ function Homework () {
                   </a>
                 </span>
                 <br />
-                <br />
-                <div>
-                  <a style={{ fontSize: 'large', textAlign: 'left' }}>
-                    Click on the screenshot to visit the original website.
-                  </a>
-                </div>
               </div>
             </FadeSection>
           </div>
