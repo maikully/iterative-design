@@ -25,7 +25,7 @@ function Homework () {
                 <span>
                   <a style={{ fontSize: 'large', textAlign: 'left' }}>
                     As part of a project for CSCI1300, our team of four students
-                    picked a startup to design an interface for. 
+                    were tasked with picking a startup and designing an interface for it. 
                     We chose DimOrder, a company that seeks to
                     provide business solutions to restaurants in Southeast Asia.
                     The startup's description mentions both ordering from
@@ -355,7 +355,7 @@ function Homework () {
               <br></br>
               <span>
                 <p style={{ fontSize: 'large' }}>A comparison of the original 
-                (top) and revised (below) prototypes,
+                (top) and revised (below) prototypes;
                   click on the image to view the original figma file
                 </p>
               </span>
@@ -367,7 +367,7 @@ function Homework () {
                 style={{
                   textAlign: 'left',
                   marginLeft: '30vw',
-                  marginBottom: '10vh'
+                  marginBottom: '20vh'
                 }}
               >
                 <li>
@@ -394,7 +394,7 @@ function Homework () {
         <FadeSection>
           <div>
             <span>
-              <h1 style={{ marginBottom: '10vh' }}>
+              <h1 style={{ marginBottom: '5vh' }}>
                 User Testing Results & Analysis
               </h1>
             </span>
@@ -405,21 +405,21 @@ function Homework () {
             target='_blank'
             href='https://app.usertesting.com/v/45df63d2-c0a3-4099-91d4-9c4e9ad38860?encrypted_video_handle=d89b2372-3472-43b3-a65c-4c7936887daa&utm_campaign=email_clicks&utm_medium=email&utm_source=usertesting.com_system#!/notes&shared_via=link'
           >
-            <h2>Test 1</h2>
+            <h3>Test 1</h3>
           </a>
           <a
             target='_blank'
             href='https://app.usertesting.com/v/13b5e619-588c-4d15-8a8e-ef3e9cf5f271?encrypted_video_handle=2597507a-e2b4-4443-804e-cefc7a9e74a3&utm_campaign=email_clicks&utm_medium=email&utm_source=usertesting.com_system#!/notes&shared_via=link'
           >
             <br></br>
-            <h2>Test 2</h2>
+            <h3>Test 2</h3>
           </a>
           <a
             target='_blank'
             href='https://app.usertesting.com/v/0c9d82b0-73fd-4798-818c-afd4be96ec73?encrypted_video_handle=cef0dd90-42e4-4ec1-b8a1-7322e8202c96&utm_campaign=email_clicks&utm_medium=email&utm_source=usertesting.com_system#!/notes&shared_via=link'
           >
             <br></br>
-            <h2>Test 3</h2>
+            <h3>Test 3</h3>
           </a>
           <div
             style={{
@@ -430,15 +430,15 @@ function Homework () {
           ></div>
           <div
             style={{
-              width: '50vw'
+              width: '60vw'
             }}
           >
             <div style={{ marginBottom: '10vh' }}>
               <br></br>
               <span>
-                <p style={{ fontSize: 'large' }}>note: the videos show the prototype as
-                going out of the tablet contatiner, but since none of the users mentioned
-                that glitch, we are assuming it is a screen recorder issue
+                <p style={{ fontSize: 'x-large', width: "50vw", textAlign:"left", marginLeft:"5vw"}}>note: the videos show the prototype as
+                going out of the tablet container, but since none of the users mentioned
+                this glitch, we are assuming it is a screen recorder issue
                 </p>
               </span>
             </div>
@@ -449,9 +449,9 @@ function Homework () {
                 marginLeft: '5vw'
               }}
             >
-              <li>
+              <li >
                 The task we assigned was to follow a waiter's workflow, changing
-                an order and then finalizing the payment. This was put into usertesting.com like so:
+                an order, and finalizing the payment. This was put into usertesting.com like so:
               </li> 
               <ul>
                 <li>Background blurb: This is a prototype software for restaurants that help them manage their tables.
@@ -470,25 +470,25 @@ function Homework () {
 </li>
              </ul>
 
-              <li>  
+              <li >  
                 The results, which
                 were mostly positive, aligned with our expectations. The users
                 were able to complete the tasks, but because of an unfinished
                 part, one task (splitting the check) was confusing for some.
               </li>
 
-              <li>
+              <li >
                 Overall positive impression of prototype and design; users
                 thought the design, especially the receipt preview on the side, was
                 intuitive
               </li>
-              <li>
+              <li >
                 Deleting an item was very easy and completely successfully by
                 all testers, although one user mentioned that having all the
                 edit and delete buttons so close together might result in
                 mechanical errors
               </li>
-              <li>
+              <li >
                 Splitting the check was easy as well, although some users felt
                 that it was unclear whether or not the splitting went through
               </li>
