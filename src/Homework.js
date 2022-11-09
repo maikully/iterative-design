@@ -316,7 +316,7 @@ function Homework () {
         <div>
           <FadeSection>
             <span>
-              <h2 style={{ marginBottom: '10vh' }}>Figma Prototype</h2>
+              <h2 style={{ marginBottom: '10vh' }}>Revised Figma Prototype</h2>
             </span>
             <div>
               <a
@@ -337,6 +337,29 @@ function Homework () {
                 <h1>Critique Feedback</h1>
               </span>
             </div>
+            <div>
+              <a
+                target='_blank'
+                href='https://www.figma.com/proto/pehJfzn0mIbeRGLxqmDI2b/DimOrder---precrit?scaling=scale-down&page-id=0%3A1&starting-point-node-id=6%3A3&node-id=6%3A3'
+              >
+                <img
+                  src={require('./images/beforeandafter.png')}
+                  style={{ width: '40%', height: '40%', marginBottom: '4vh' }}
+                />
+              </a>
+            </div>
+
+            <div style={{ marginBottom: '10vh' }}>
+              <br></br>
+              <span>
+                <p style={{ fontSize: 'large' }}>A comparison of the original 
+                (top) and revised (below) prototypes,
+                  click on the image to view the original figma file
+                </p>
+              </span>
+            </div>
+
+
             <div>
               <ul
                 style={{
@@ -361,17 +384,7 @@ function Homework () {
               </ul>
             </div>
 
-            <div>
-              <a
-                target='_blank'
-                href='https://www.figma.com/proto/pehJfzn0mIbeRGLxqmDI2b/DimOrder---precrit?scaling=scale-down&page-id=0%3A1&starting-point-node-id=6%3A3&node-id=6%3A3'
-              >
-                <img
-                  src={require('./images/beforeandafter.png')}
-                  style={{ width: '40%', height: '40%', marginBottom: '30vh' }}
-                />
-              </a>
-            </div>
+            
           </FadeSection>
         </div>
       </div>
@@ -410,7 +423,7 @@ function Homework () {
             style={{
               width: '50vw',
               fontSize: 20,
-              marginBottom: '10vh'
+              marginBottom: '0vh'
             }}
           ></div>
           <div
@@ -418,6 +431,15 @@ function Homework () {
               width: '50vw'
             }}
           >
+            <div style={{ marginBottom: '10vh' }}>
+              <br></br>
+              <span>
+                <p style={{ fontSize: 'large' }}>note: the videos show the prototype as
+                going out of the tablet contatiner, but since none of the users mentioned
+                that glitch, we are assuming it is a screen recorder issue
+                </p>
+              </span>
+            </div>
             <ul
               style={{
                 textAlign: 'left',
